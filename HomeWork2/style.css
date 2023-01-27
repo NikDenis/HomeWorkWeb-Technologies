@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Nexa Script Heavy';
+    src: url('fonts/nexa_script_heavy.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/nexa_script_heavy.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/nexa_script_heavy.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/nexa_script_heavy.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/nexa_script_heavy.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/nexa_script_heavy.svg#nexa_script_heavy') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fonts/caviar_dreams.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/caviar_dreams.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/caviar_dreams.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/caviar_dreams.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/caviar_dreams.svg#caviar_dreams') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    background-color: rgb(196, 196, 196);
+    font-family: 'Caviar Dreams';
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Nexa Script Heavy';
+    color: rgb(6, 153, 146);
+    background-color: rgb(37, 39, 39);
+}
+
+.img {
+    width: 650px;
+    height: 485px;
+    border: 1px solid red;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 5px;
+    color: #bb007d;
+    background-color: rgb(26, 26, 26);
+}
+
+a:hover {
+    text-decoration: underline;
+    background-size: 16px 16px;
+}
+
+.SelPar {
+    color: rgb(27, 1, 121);
+    font-style: italic;
+}
