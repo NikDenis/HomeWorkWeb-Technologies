@@ -121,11 +121,11 @@ $experWork = [
             <div class="w3-container">
               <h5 class="w3-opacity"><b><?php echo $experWork[$i]['work']?></b></h5>
               <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $experWork[$i]['startWork']?> -
-              <?php if ($i === 0):?>
-              <span class="w3-tag w3-teal w3-round"><?php echo $experWork[$i]['endwork']?></span>
-              <?php else: ?>
-              <?php echo $experWork[$i]['endwork']?>
-              <?php endif; ?>
+                <?php if ($i === 0):?>
+                  <span class="w3-tag w3-teal w3-round"><?php echo $experWork[$i]['endwork']?></span>
+                <?php else: ?>
+                  <?php echo $experWork[$i]['endwork']?>
+                <?php endif; ?>
               </h6>
               <p><?php echo $experWork[$i]['description']?></p>
               <hr>

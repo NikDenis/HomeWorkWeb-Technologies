@@ -5,28 +5,28 @@ CREATE TABLE IF NOT EXISTS onegroup(
   address TEXT NOT NULL
 );
 INSERT INTO onegroup (name,age,address)
-VALUES('Andrey','19','Tashkent');
+VALUES('Andrey', 19,'Tashkent');
 INSERT INTO onegroup (name,age,address)
-VALUES('Vasilisa', '25', 'Moscow');
+VALUES('Vasilisa', 25, 'Moscow');
 INSERT INTO onegroup (name,age,address)
-VALUES('Anasnasiya','22', 'Petersburg');
+VALUES('Anasnasiya', 22, 'Petersburg');
 INSERT INTO onegroup (name,age,address)
-VALUES('Ivan', '27', 'Moscow');
+VALUES('Ivan', 27, 'Moscow');
 INSERT INTO onegroup (name,age,address)
-VALUES('Ivan', '23', 'Astana');
+VALUES('Ivan', 23, 'Astana');
 INSERT INTO onegroup (name,age,address)
-VALUES('Mariya','23','Minsk');
+VALUES('Mariya', 23,'Minsk');
 INSERT INTO onegroup (name,age,address)
-VALUES('Aleks', '24', 'Habarovsk');
+VALUES('Aleks', 24, 'Habarovsk');
 INSERT INTO onegroup (name,age,address)
-VALUES('Darya', '29', 'Moscow');
+VALUES('Darya', 29, 'Moscow');
 INSERT INTO onegroup (name,age,address)
-VALUES('Denis','37', 'Volgograd');
+VALUES('Denis', 37, 'Volgograd');
 INSERT INTO onegroup (name,age,address)
-VALUES('Natalya', '25', 'Novosibirsk');
+VALUES('Natalya', 25, 'Novosibirsk');
 INSERT INTO onegroup (name,age,address)
-VALUES('Artur', '26', 'Altay');
+VALUES('Artur', 26, 'Altay');
 
 
 
-SELECT name FROM onegroup WHERE address = 'Moscow' AND age >= '18' AND age < '30';
+SELECT name FROM onegroup WHERE address = 'Moscow' AND age >= 18 AND age < 30;
